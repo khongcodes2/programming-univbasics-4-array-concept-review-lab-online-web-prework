@@ -21,14 +21,3 @@ def find_max_value(array)
   return sorted_array[-1]
 end
 
-def find_min_value(array)
-  count=1
-  while count+1<array.length do
-    if array[count]-array[count-1]<=0
-     small=array[count]
-    else
-      small=array[count-1]
-    end
-  end
-  count +=1 
-end
