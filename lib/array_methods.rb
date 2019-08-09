@@ -3,8 +3,16 @@ def find_element_index(array, value_to_find)
   #return the index of the matching value
   #return nil if value is not found
   
-  array.
-  
+	counter=0 
+	while counter<array.length do
+	  if array[counter]==value_to_find
+		  return counter
+	  elsif counter>=array.length
+		  return nil 
+	  else
+		  counter += 1
+	  end
+  end
 end
 
 
