@@ -29,6 +29,7 @@ def find_min_value(array)
     else
       small=array[count-1]
     end
+    count += 1
   end
-  count +=1 
+  return small 
 end
