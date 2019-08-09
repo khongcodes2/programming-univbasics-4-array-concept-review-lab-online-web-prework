@@ -23,6 +23,12 @@ end
 
 def find_min_value(array)
   count=1
+  
+  if array[count]-array[count-1] <= 0
+    smallest=array[count]
+  else
+    smallest = array [count-1]
+  
   while count<=array.length do
     if array[count]-array[count-1]<=0
      small=array[count]
