@@ -17,22 +17,7 @@ end
 
 
 def find_max_value(array)
-  counter=1
-  if array[counter]>array[0]
-    big_one=array[counter]
-  else
-    big_one=array[0]
-  end
-
-  while counter<array.length do
-    if array[counter]>array[counter-1]
-      big_one=array[counter]
-      return big_one
-    else
-      counter += 1
-    end
-  end
-end
+  
 
 
 def find_min_value(array)
