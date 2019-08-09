@@ -29,11 +29,11 @@ def find_min_value(array)
   else
     smallest = array [count-1]
   
-  while count<=array.length do
-    if array[count]-smallest<=0
-     smallest=array[count]
-    end
-    count += 1
-  end
+  #while count<=array.length do
+   # if array[count]-smallest<=0
+    # smallest=array[count]
+    #end
+    #count += 1
+  #end
   smallest
 end
