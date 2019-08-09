@@ -30,10 +30,10 @@ def find_min_value(array)
     smallest = array [count-1]
   
   while count<=array.length do
-    if array[count]-array[count-1]<=0
-     small=array[count]
+    if array[count]-smallest<=0
+     smallest=array[count]
     end
     count += 1
   end
-  return small 
+  return smallest
 end
